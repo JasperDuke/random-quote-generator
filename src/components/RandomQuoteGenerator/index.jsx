@@ -62,6 +62,9 @@ const RandomQuoteGenerator = () => {
         getQuote={getQuote}
         currentColor={currentColor}
       />
+      <div className="scroll-box">
+        <span className="name">Jasper Duke</span>
+      </div>
     </div>
   );
 };
